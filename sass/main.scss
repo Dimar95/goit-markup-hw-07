@@ -1,9 +1,13 @@
+@import './utils/variables';
 
 .body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     color: $title-text-color;
     margin: 0;
+}
+ul{
+    list-style: none;
 }
 .container {
     width: 1200px;
@@ -12,7 +16,9 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.main-nav {
-    display: flex;
-    align-items: center;
-}
+@import './components/logo';
+@import './components/page-header';
+@import './components/main-index';
+@import './components/footer';
+@import './components/modal';
+@import './components/main-portfolio';
